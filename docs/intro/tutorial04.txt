@@ -306,7 +306,7 @@ views and use Django's generic views instead. To do so, open the
 
 Each generic view needs to know what model it will be acting upon. This is
 provided using either the ``model`` attribute (in this example, ``model =
-Question`` for  ``DetailView`` and ``ResultsView``) or by defining the
+Question`` for ``DetailView`` and ``ResultsView``) or by defining the
 :meth:`~django.views.generic.list.MultipleObjectMixin.get_queryset` method (as
 shown in ``IndexView``).
 
